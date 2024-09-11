@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.slick-dots li button:before {
+  font-size: 16px; 
+  color: #ccc; 
+  opacity: 1; 
+  transition: transform 0.3s ease, color 0.3s ease; /* Transiciones suaves */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #F959A3;
+  transform: scale(1.5); 
+}
