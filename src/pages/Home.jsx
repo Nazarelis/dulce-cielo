@@ -5,7 +5,7 @@ import rectangle1 from "../assets/rectangle1.png"
 import rectangle2 from '../assets/rectangle2.png'
 import SectionPrice from "../components/SectionPrice"
 import SectionOpinions from '../components/SectionOpinion'
-
+ 
 
 function Home() {
     return (
