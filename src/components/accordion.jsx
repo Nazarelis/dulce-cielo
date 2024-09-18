@@ -47,12 +47,12 @@ const AccordionList = () => {
         content="Se puede cancelar un pedido con mínimo 2 días de anticipación de lo contrario se perdería el abono. No se devuelve dinero se reagenda pero no se hace devolución."
       />
       <Accordion
-        title="Accordion Item 2"
-        content="Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat."
+        title="¿Qué métodos de pagos aceptan?"
+        content="Aceptamos transferencia y efectivo."
       />
       <Accordion
-        title="Accordion Item 3"
-        content="Curabitur tempus quam nec neque vehicula fringilla. Nulla facilisi."
+        title="¿Haces envíos a domicilio?"
+        content="Por supuesto. Contamos con despacho a todas las comunas de Santiago."
       />
     </div>
   );
