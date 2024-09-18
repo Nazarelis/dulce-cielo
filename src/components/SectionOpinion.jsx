@@ -52,12 +52,12 @@ function SectionOpinions() {
         <div className='w-1/2 block ml-4 mr-4 '>
         <Slider {...settings}>
           {data.map((item) => (
-              <div key={item.id} className='p-12  mb-10 pl-12 pr-12 rounded-[40px] relative bg-[#F959A3] flex items-center justify-center'>
-                <p className='text-[#F2F2F2] text-center text-xs md:text-xl font-merriweather'>
+              <div key={item.id} className='p-12  mb-10 pl-12 pr-12 rounded-[40px] relative bg-[#F3F3F3] border-[#F959A3] flex items-center justify-center'>
+                <p className='text-[#4F4F4F] text-center text-xs md:text-xl font-merriweather'>
                   {item.text}
                 </p>
-                <img src={iconT1} className='max-w-full absolute md:top-4 md:left-8 w-8' />
-                <img src={iconT2} className='max-w-full absolute md:bottom-4 md:right-8 w-8' />
+                <img src={iconT1} className='max-w-full absolute md:top-4 md:left-12 w-7' />
+                <img src={iconT2} className='max-w-full absolute md:bottom-4 md:right-12 w-7' />
             </div>
           ))}
           </Slider>

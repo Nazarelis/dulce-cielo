@@ -5,7 +5,7 @@ import rectangle1 from "../assets/rectangle1.png"
 import rectangle2 from '../assets/rectangle2.png'
 import SectionPrice from "../components/SectionPrice"
 import SectionOpinions from '../components/SectionOpinion'
- 
+import cupcake from '../assets/logoCupcake.png'
 
 function Home() {
     return (
@@ -14,10 +14,12 @@ function Home() {
         <SectionOurProducts />
 
         <div className="w-full flex justify-center items-center mt-10 mb-10 h-auto">
-            <div className="bg-[#52989C] w-3/4 h-24 flex justify-center items-center">
+            <div className="bg-[#D34285] w-3/5 h-24 flex justify-evenly items-center">
+                <img src={cupcake} alt="" className="w-12" />
                 <p className="text-7xl text-[#F8F8F8] font-euphoria">
-                Si lo puedes imaginar, lo puedes crear
+                Horneamos con amor
                 </p>
+                <img src={cupcake} alt="" className="w-12" />
             </div>
         </div>
 

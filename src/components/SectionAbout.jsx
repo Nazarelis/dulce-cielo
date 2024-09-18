@@ -10,8 +10,8 @@ function SectionAbout() {
         <div className="w-full flex md:h-screen flex-col md:flex-row items-center relative">
             <div className="flex flex-col w-4/5 items-center">
                 <div className="flex flex-col w-4/6">
-                    <h1 className="text-[#D34285] font-cinzel font-bold text-2xl md:text-4xl">¡Hola, me llamo Wilyeisy!</h1>
-                    <p className="text-[#D34285] font-cinzel font-bold text-xl pt-2">Y soy la creadora de Dulce Cielo</p>
+                    <h1 className="text-[#4F4F4F] font-cinzel font-bold text-2xl tracking-widest md:text-4xl">¡Hola, me llamo Wilyeisy!</h1>
+                    <p className="text-[#D34285] font-cinzel font-bold text-2xl pt-2">Y soy la creadora de Dulce Cielo</p>
                 </div>
             <div className="w-4/6 mt-8">
                 <p className="w-11/12 text-lg text-[#4F4F4F]">
