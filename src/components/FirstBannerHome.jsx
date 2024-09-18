@@ -83,7 +83,7 @@ function FirstBanner() {
              TE LLEVAMOS <br/> TU PEDIDO <br/> HASTA TU <br/> HOGAR 
             </h1>
             <p className="text-lg md:text-xl text-[#F4F4F4] font-merriweather text-start mt-4">
-            Entregamos dulzura a todas las comunas de Santiago            </p>
+            Entregamos dulzura a todas las <br/> comunas de Santiago            </p>
             <ButtonContact backgroundColor='bg-[#D34285]' textSize='text-sm' to='https://wa.me/56936725421' text='ORDENA AHORA' borderColor='border-[#D34285]'/>
           </div>
         </div>
