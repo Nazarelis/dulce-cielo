@@ -13,13 +13,13 @@ function Home() {
         <FirstBanner />
         <SectionOurProducts />
 
-        <div className="w-full flex justify-center items-center mt-10 mb-10 h-auto">
-            <div className="bg-[#D34285] w-3/5 h-24 flex justify-evenly items-center">
-                <img src={cupcake} alt="" className="w-12" />
-                <p className="text-7xl text-[#F8F8F8] font-euphoria">
+        <div className="md:w-full w-11/12 flex justify-center items-center mt-10 mb-10 md:h-auto">
+            <div className="bg-[#D34285] md:w-3/5 md:h-24 flex md:justify-evenly items-center">
+                <img src={cupcake} alt="" className="md:w-12 w-8" />
+                <p className="md:text-7xl text-3xl pl-4 pr-4 md:pl-0 mr:pr-0 text-[#F8F8F8] font-euphoria">
                 Horneamos con amor
                 </p>
-                <img src={cupcake} alt="" className="w-12" />
+                <img src={cupcake} alt="" className="md:w-12 w-8" />
             </div>
         </div>
 

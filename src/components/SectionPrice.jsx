@@ -7,10 +7,10 @@ import Button from "../components/button"
 function SectionPrice() {
     return (
         <>
-        <div className="flex w-full items-center justify-center h-screen flex-col">
-            <h1 className="text-4xl font-cinzel mb-2 font-bold text-[#4F4F4F]">¿CÓMO COTIZAR EN DULCE CIELO?</h1>
+        <div className="flex w-full items-center justify-center md:h-screen flex-col mt-12 mb-12 md:mt-0 md:mb-0">
+            <h1 className="md:text-4xl text-2xl text-center font-cinzel mb-2 font-bold text-[#4F4F4F]">¿CÓMO COTIZAR EN DULCE CIELO?</h1>
             
-            <div className="flex mt-12  w-1/2 justify-evenly">
+            <div className="flex mt-12 flex-col w-1/2 justify-evenly">
                 
                 <div className="w-40 h-56  flex items-center justify-evenly flex-col ">
                     <div className="bg-[#F959A3] w-28 flex justify-center items-center rounded-full h-28">

@@ -70,7 +70,7 @@ function FirstBanner() {
                MÁS QUE <br/>  SOLO DULCES <br/>  POSTRES
             </h1>
             <p className="text-lg md:text-xl text-[#F2F2F2] font-merriweather text-start mt-4">
-              Complementa tus tortas con globos de helio <br /> y hermosos arreglos florales
+              Complementa tus tortas con globos de <br /> helio  y hermosos arreglos florales
             </p>
             <ButtonContact backgroundColor='bg-[#D34285]' textSize='text-sm' to='https://wa.me/56936725421' text='EXPLORA' borderColor='border-[#D34285]'/>
           </div>

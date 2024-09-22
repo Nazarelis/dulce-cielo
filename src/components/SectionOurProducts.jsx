@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom'
 function OurProducts (){
     return(
         <>
-        <div className='w-full flex justify-evenly flex-col mt-20'>
+        <div className='w-full flex justify-evenly flex-col md:mt-20'>
             <div className='flex items-center flex-col'>
                 <h2 className='md:text-5xl text-2xl font-bold font-cinzel text-center text-[#4F4F4F] mt-16'>
                     CONOCE NUESTROS PRODUCTOS
